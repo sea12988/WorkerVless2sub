@@ -44,13 +44,13 @@
    cloudflare.cfgo.cc#优选官方线路
    ```
 
-   - 添加变量 `ADDAPI`/`ADDNOTLSAPI` 为 **优选IP地址txt文件** 的 URL。例如：
+   - 添加变量 `ADDAPI`/`ADDNOTLSAPI` 为 **优选IP地址txt文件(用工具CloudflareSpeedTest可以生成)** 的 URL。例如：
    ```url
    https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt
    https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt
    ```
 
-   - 添加变量 `ADDCSV` 为 **iptest测速结果csv文件地址** 的 URL。例如：
+   - 添加变量 `ADDCSV` 为 **iptest测速结果csv文件地址(用工具CloudflareSpeedTest可以生成)** 的 URL。例如：
    ```js
    https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv
    ```
@@ -104,7 +104,7 @@
 
 **3.2 修改 addressesapi 参数示例**
  
-   - 修改 `addressesapi` 参数，在脚本中设置 `addressesapi` 变量为 **优选IP地址txt文件** 的 URL。例如：
+   - 修改 `addressesapi` 参数，在脚本中设置 `addressesapi` 变量为 **优选IP地址txt文件(用工具CloudflareSpeedTest可以生成)** 的 URL。例如：
 	```js
 	let addressesapi = [
 		'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
@@ -115,7 +115,7 @@
  
 **3.3 修改 addressescsv 参数示例**
   
- - 修改 `addressescsv` 参数，在脚本中设置 `addressescsv` 变量为 **iptest测速结果csv文件地址** 的 URL。例如：
+ - 修改 `addressescsv` 参数，在脚本中设置 `addressescsv` 变量为 **iptest测速结果csv文件地址(用工具CloudflareSpeedTest可以生成)** 的 URL。例如：
 	```js
 	let DLS = 4;//速度下限
 	let addressescsv = [
